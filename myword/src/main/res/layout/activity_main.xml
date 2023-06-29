@@ -9,12 +9,22 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="My Word"
-        android:textSize="40dp"
-        android:padding="15dp"
+        android:layout_weight="20"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
-        android:layout_weight="20"/>
+        android:padding="15dp"
+        android:text="My Word"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#ffffffff"
+        android:text="Refresh" />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="0dp"
